@@ -12,5 +12,5 @@ services:
     ports:
       - "341341:341341"
     volumes:
-      - ${APP_DATA_DIR}:/mango
-      - ${APP_DATA_DIR}:/.config/mango
+      - ${APP_DATA_DIR}:/root/mango
+      - ${APP_DATA_DIR}:/root/.config/mango
