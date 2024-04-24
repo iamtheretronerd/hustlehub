@@ -27,7 +27,7 @@ website: github.com/getmango
 dependencies: []
 repo: github.com/getmango
 support: github.com/getmango
-port: 9000
+port: 341341
 gallery:
   - https://raw.githubusercontent.com/getmango/Mango/master/.github/screenshots/library.png
   - https://raw.githubusercontent.com/getmango/Mango/master/.github/screenshots/title.png
