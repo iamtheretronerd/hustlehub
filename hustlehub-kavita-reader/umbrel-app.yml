@@ -2,7 +2,7 @@ manifestVersion: 1
 id: hustlehub-kavita-reader
 category: media
 name: Kavita
-icon: https://www.kavitareader.com/img/logo.png
+icon: https://i.pinimg.com/564x/bd/a2/bb/bda2bbe90dd9211b72bd606b543bdd5a.jpg
 version: "0.7.7"
 tagline: Digital ebook library which supports a vast array of file formats.
 description: >-
@@ -62,7 +62,7 @@ website: https://kavitareader.com
 dependencies: []
 repo: https://github.com/Kareadita/Kavita
 support: https://www.kavitareader.com/#support
-port: 5012
+port: 363363
 gallery:
   - https://www.kavitareader.com/img/features/homepage.PNG
   - https://www.kavitareader.com/img/features/seriesdetail.PNG

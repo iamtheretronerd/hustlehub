@@ -4,13 +4,13 @@ services:
   app_proxy:
     environment:
       APP_HOST: hustlehub-kavita-reader_web_1
-      APP_PORT: 5012
+      APP_PORT: 363363
   web:
     image: kizaing/kavita:latest
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - "5012:5000"
+      - "363363:363363"
     volumes:
       - ${APP_DATA_DIR}:/manga
       - ${APP_DATA_DIR}:/comics
