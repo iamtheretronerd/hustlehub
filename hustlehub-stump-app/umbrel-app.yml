@@ -5,7 +5,7 @@ tagline: Read Mangas and Comics
 icon: https://raw.githubusercontent.com/stumpapp/stump/main/.github/images/stump-logo--square.png
 category: Development
 version: "1.0.0"
-port: 10801
+port: 49152
 description: >-
   Read Mangas and comics
 
@@ -23,5 +23,7 @@ releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
+permissions:
+  - STORAGE_DOWNLOADS
 defaultUsername: ""
 defaultPassword: ""
