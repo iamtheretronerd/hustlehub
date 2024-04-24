@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: hustlehub-mango_web_1
+      APP_PORT: 9000
+  web:
+    image: hkalexling/mango:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - "9000:9000"
+    volumes:
+      - ${APP_DATA_DIR}:/mango
+      - ${APP_DATA_DIR}:/.config/mango

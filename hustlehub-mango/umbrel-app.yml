@@ -1,0 +1,41 @@
+manifestVersion: 1
+id: hustlehub-mango
+category: media
+name: Mango
+icon: https://raw.githubusercontent.com/getmango/Mango/master/public/img/banner-paddings.png
+version: "0.7.7"
+tagline: Digital ebook library which supports a vast array of file formats.
+description: >-
+  self-hosted manga server and reader. Its features include
+
+  Multi-user support
+  OPDS support
+  Dark/light mode switch
+  Supported formats: .cbz, .zip, .cbr and .rar
+  Supports nested folders in library
+  Automatically stores reading progress
+  Thumbnail generation
+  Supports plugins to download from third-party sites
+  The web reader is responsive and works well on mobile, so there is no need for a mobile app
+  All the static files are embedded in the binary, so the deployment process is easy and painless
+
+releaseNotes: >-
+  - Localization is here! A new language will only appear when both Frontend and Backend localization files exist. If a localization key is missing in a user's locale, English will be the fallback. Note: Some items are not yet localized.
+  
+developer: Mango
+website: github.com/getmango
+dependencies: []
+repo: github.com/getmango
+support: github.com/getmango
+port: 9000
+gallery:
+  - https://raw.githubusercontent.com/getmango/Mango/master/.github/screenshots/library.png
+  - https://raw.githubusercontent.com/getmango/Mango/master/.github/screenshots/title.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+submitter: buttonbeaver
+submission: https://github.com/buttonbeaver/beaver-umbrel-app-store
