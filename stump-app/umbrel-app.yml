@@ -2,7 +2,7 @@ manifestVersion: 1
 id: stump-app
 name: Stump App
 tagline: Read Mangas and Comics
-icon: https://svgur.com/i/mvA.svg
+icon: https://github.com/stumpapp/stump/blob/main/.github/images/stump-logo--square.png
 category: Development
 version: "1.0.0"
 port: 10801
