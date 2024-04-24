@@ -1,5 +1,9 @@
 version: '3.3'
 services:
+  app_proxy:
+    environment:
+      APP_HOST: hustlehub-stump-app_server_1
+      APP_PORT: 10801
   stump:
     image: aaronleopold/stump:nightly
     container_name: stump
