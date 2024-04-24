@@ -1,26 +1,16 @@
-version: '3.3'
+version: "3.7"
+
 services:
-
-
   app_proxy:
     environment:
       APP_HOST: hustlehub-stump-app_server_1
       APP_PORT: 10801
-
-
-  server:
+  web:
     image: aaronleopold/stump:nightly
-    container_name: stump
-    # Replace my paths (prior to the colons) with your own
-    volumes:
-      - ${APP_DATA_DIR}/.stump:/config
-      - ${APP_DATA_DIR}/Stump:/data
+    restart: on-failure
+    stop_grace_period: 1m
     ports:
-      - 10801:10801
-    environment:
-      - PUID=1000
-      - PGID=1000
-      # This `environment` field is optional, remove if you don't need it.
-      # I am using it as an example here, but it's actually a default value.
-      - STUMP_CONFIG_DIR=/config
-    restart: unless-stopped
+      - 10801:10800
+    volumes:
+      - ${APP_DATA_DIR}:/data
+      - ${APP_DATA_DIR}:/config
