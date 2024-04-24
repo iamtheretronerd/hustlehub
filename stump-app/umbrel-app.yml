@@ -2,7 +2,7 @@ manifestVersion: 1
 id: hustlehub-stump-app
 name: Stump App
 tagline: Read Mangas and Comics
-icon: https://github.com/stumpapp/stump/blob/main/.github/images/stump-logo--square.png
+icon: https://github.com/stumpapp/stump/blob/main/.github/images/stump-logo--square.png?raw=true
 category: Development
 version: "1.0.0"
 port: 10801
